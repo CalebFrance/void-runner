@@ -356,7 +356,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scenes/ballroll.cs"
+"Assets/Scenes/scripts/camera.cs"
+"Assets/Scenes/scripts/death to prefabs.cs"
+"Assets/Scenes/scripts/movement.cs"
+"Assets/Scenes/scripts/power_up.cs"
 "Assets/Scenes/scripts/RollYaBall.cs"
+"Assets/Scenes/scripts/spawn prefab.cs"
 -langversion:9.0
 
 /deterministic
