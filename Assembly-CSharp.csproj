@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scenes\scripts\death to prefabs.cs" />
     <Compile Include="Assets\Scenes\MainMenu.cs" />
     <Compile Include="Assets\Scenes\scripts\movement.cs" />
+    <Compile Include="Assets\Scenes\scripts\spawnColoumns.cs" />
     <Compile Include="Assets\Scenes\scripts\RollYaBall.cs" />
     <Compile Include="Assets\Scenes\ballroll.cs" />
     <Compile Include="Assets\Scenes\scripts\spawn prefab.cs" />

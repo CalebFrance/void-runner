@@ -13,6 +13,7 @@ public class Ballroll : MonoBehaviour
     public List<GameObject> levels = new List<GameObject>();
     public GameObject columns;
     public GameObject tutorial_level;
+
     //public GameObject lvl1_trigger;
     // Start is called before the first frame update
 
@@ -79,24 +80,20 @@ public class Ballroll : MonoBehaviour
             Debug.Log("Score: " + score);
         }
 
-        
-        if (other.CompareTag("spawn"))
+
+       /* if (other.CompareTag("spawn"))
         {
             //Trigger location x 3.26 y -3.4 z 205.1104
 
             Debug.Log("found trigger");
-                levels.Add(columns);
+            levels.Add(columns); Debug.Log("Levels Added to list");
             // Instantiate the prefab 
             Instantiate(levels[1], new Vector3((float)0.0, (float)6.0, (float)303.0), Quaternion.identity);
 
-                Debug.Log("columns prefab instantiated");
+            Debug.Log("columns prefab instantiated");
 
-        }
+        } */
 
-        else
-        {
-            Debug.Log("Failed to run coloumns instatiation");
-        };
 
 
         if (gameObject.CompareTag("Destroy"))

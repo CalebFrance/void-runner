@@ -363,6 +363,7 @@
 "Assets/Scenes/scripts/power_up.cs"
 "Assets/Scenes/scripts/RollYaBall.cs"
 "Assets/Scenes/scripts/spawn prefab.cs"
+"Assets/Scenes/scripts/spawnColoumns.cs"
 -langversion:9.0
 
 /deterministic

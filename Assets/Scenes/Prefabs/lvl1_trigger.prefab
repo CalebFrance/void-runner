@@ -67,15 +67,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 081727a5b7f612741b7335b63cb5244b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   columns: {fileID: 6254796529570121131, guid: d36a37b96cd0c354fa3e85ec322706dd, type: 3}
-  tutorial_level: {fileID: 8692604088842636664, guid: 0f52862ed2705564dbdc1cff6a2a3366, type: 3}
+  tutorial_level: {fileID: 0}
   instant_trigger: {fileID: 0}
+  lvl1_trigger: {fileID: 7266448931844141942}
   destroy: {fileID: 0}
   score: 0
   lvl_cleared: 0
   start: 0
   levels: []
-  newSection: {x: 0, y: 0, z: 0}
 --- !u!54 &9015406459440068278
 Rigidbody:
   m_ObjectHideFlags: 0
