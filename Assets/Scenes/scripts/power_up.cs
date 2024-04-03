@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class power_up : MonoBehaviour
 {
-    public float multiplier = 2f;
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.name == "player_col")
-        {
-           // Ballroll.speed *= multiplier;
-            Destroy(gameObject); //Kill
-        }
-    }
+    //public float multiplier = 2f;
+    //public float speed;
+    public int score;
+    public Vector3 GetAreaPointsOnCollider;
+ 
+    
 }

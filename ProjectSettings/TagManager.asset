@@ -6,6 +6,12 @@ TagManager:
   tags:
   - spawn
   - Destroy
+  - PickUp
+  - Speed
+  - Columns
+  - Score
+  - Tutorial Level
+  - instantColumnTrig
   layers:
   - Default
   - TransparentFX

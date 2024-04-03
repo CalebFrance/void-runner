@@ -10,9 +10,9 @@ public class camera : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private float smoothTime = 0.3f;
 
-   
+    // -36.12 original z value camera  5.509995 original value y   -30.37 original z value player 2.54 original y value player
 
- 
+
 
     // Start is called before the first frame update
     void Start()

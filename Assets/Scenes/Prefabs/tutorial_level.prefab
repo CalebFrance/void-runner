@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 528602253991361544}
   m_Layer: 0
   m_Name: destroy
-  m_TagString: Untagged
+  m_TagString: Destroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2678,59 +2678,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &4816392589000165137
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7237706540490642749}
-  - component: {fileID: 2181010413543082236}
-  m_Layer: 0
-  m_Name: instant_trigger
-  m_TagString: spawn
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7237706540490642749
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4816392589000165137}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9123507, y: -1.3373108, z: 205.1104}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 225305308815844769}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2181010413543082236
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4816392589000165137}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 15.418135, y: 21.298286, z: 1.8491516}
-  m_Center: {x: -2.622548, y: -2.5049458, z: -0.4245758}
 --- !u!1 &4879254885325498948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3895,9 +3842,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 225305308815844769}
+  - component: {fileID: 1163307792020199452}
   m_Layer: 0
   m_Name: tutorial_level
-  m_TagString: Untagged
+  m_TagString: Tutorial Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3953,10 +3901,31 @@ Transform:
   - {fileID: 6592026241674660263}
   - {fileID: 7962025211316954016}
   - {fileID: 75089225657160405}
-  - {fileID: 7237706540490642749}
   - {fileID: 8016075480836344094}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1163307792020199452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8692604088842636664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081727a5b7f612741b7335b63cb5244b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: {fileID: 6254796529570121131, guid: d36a37b96cd0c354fa3e85ec322706dd, type: 3}
+  tutorial_level: {fileID: 8692604088842636664}
+  instant_trigger: {fileID: 0}
+  lvl1_trigger: {fileID: 0}
+  destroy: {fileID: 0}
+  score: 0
+  lvl_cleared: 0
+  start: 0
+  levels: []
+  newSection: {x: 0, y: 0, z: 0}
 --- !u!1 &8870070906416740712
 GameObject:
   m_ObjectHideFlags: 0
