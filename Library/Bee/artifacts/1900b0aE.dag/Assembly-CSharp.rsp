@@ -359,6 +359,7 @@
 "Assets/Scenes/MainMenu.cs"
 "Assets/Scenes/scripts/camera.cs"
 "Assets/Scenes/scripts/death to prefabs.cs"
+"Assets/Scenes/scripts/gameStart.cs"
 "Assets/Scenes/scripts/movement.cs"
 "Assets/Scenes/scripts/power_up.cs"
 "Assets/Scenes/scripts/RollYaBall.cs"

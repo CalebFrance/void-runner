@@ -493,6 +493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688882267}
   - component: {fileID: 1688882266}
+  - component: {fileID: 1688882268}
   - component: {fileID: 1688882265}
   m_Layer: 0
   m_Name: EventSystem
@@ -551,6 +552,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1688882268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688882264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321d344c58c0e804ab3ab384faa66819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorial_level: {fileID: 8692604088842636664, guid: 0f52862ed2705564dbdc1cff6a2a3366, type: 3}
+  levels: []
 --- !u!1 &1847916894
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 18
   doubleJumpForce: 10
-  timeBeforeNextJump: 0.01
+  timeBeforeNextJump: 0
   isGrounded: 1
 --- !u!114 &1847916904
 MonoBehaviour:

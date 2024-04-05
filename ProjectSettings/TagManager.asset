@@ -12,6 +12,7 @@ TagManager:
   - Score
   - Tutorial Level
   - instantColumnTrig
+  - destroyLvl0
   layers:
   - Default
   - TransparentFX
