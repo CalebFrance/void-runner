@@ -360,11 +360,15 @@
 "Assets/Scenes/scripts/camera.cs"
 "Assets/Scenes/scripts/death to prefabs.cs"
 "Assets/Scenes/scripts/gameStart.cs"
+"Assets/Scenes/scripts/level_motion.cs"
 "Assets/Scenes/scripts/movement.cs"
+"Assets/Scenes/scripts/NewBehaviourScript.cs"
+"Assets/Scenes/scripts/pickUp Generation.cs"
 "Assets/Scenes/scripts/power_up.cs"
+"Assets/Scenes/scripts/prefabTrigger.cs"
 "Assets/Scenes/scripts/RollYaBall.cs"
+"Assets/Scenes/scripts/sectionTrigger.cs"
 "Assets/Scenes/scripts/spawn prefab.cs"
-"Assets/Scenes/scripts/spawnColoumns.cs"
 -langversion:9.0
 
 /deterministic

@@ -5,14 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - spawn
+  - Level
   - Destroy
-  - PickUp
-  - Speed
-  - Columns
   - Score
-  - Tutorial Level
-  - instantColumnTrig
-  - destroyLvl0
   layers:
   - Default
   - TransparentFX

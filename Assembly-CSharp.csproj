@@ -61,14 +61,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\scripts\camera.cs" />
+    <Compile Include="Assets\Scenes\scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scenes\scripts\level_motion.cs" />
+    <Compile Include="Assets\Scenes\scripts\sectionTrigger.cs" />
+    <Compile Include="Assets\Scenes\scripts\prefabTrigger.cs" />
     <Compile Include="Assets\Scenes\scripts\power_up.cs" />
     <Compile Include="Assets\Scenes\scripts\gameStart.cs" />
     <Compile Include="Assets\Scenes\scripts\death to prefabs.cs" />
     <Compile Include="Assets\Scenes\MainMenu.cs" />
     <Compile Include="Assets\Scenes\scripts\movement.cs" />
-    <Compile Include="Assets\Scenes\scripts\spawnColoumns.cs" />
     <Compile Include="Assets\Scenes\scripts\RollYaBall.cs" />
     <Compile Include="Assets\Scenes\ballroll.cs" />
+    <Compile Include="Assets\Scenes\scripts\pickUp Generation.cs" />
     <Compile Include="Assets\Scenes\scripts\spawn prefab.cs" />
   </ItemGroup>
   <ItemGroup>

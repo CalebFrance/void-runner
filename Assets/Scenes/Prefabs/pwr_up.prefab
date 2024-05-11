@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+  GetAreaPointsOnCollider: {x: 0, y: 0, z: 0}
 --- !u!135 &6512451039009627037
 SphereCollider:
   m_ObjectHideFlags: 0
