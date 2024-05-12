@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Ballroll : MonoBehaviour
@@ -8,9 +9,12 @@ public class Ballroll : MonoBehaviour
     
     private Rigidbody rb;
 
-    
+    public int score;
+
+    public float time = 1f;
+
     // Start is called before the first frame update
-   
+
 
     // Update is called once per frame
     void Update()
@@ -23,6 +27,41 @@ public class Ballroll : MonoBehaviour
 
         rb.AddForce(roll * (speed * Time.deltaTime));
         rb.AddForce( Jump * (speed * Time.deltaTime));
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Speed"))
+        {
+            if (Time.time > 2f)
+            {
+                speed = speed * time;
+
+                Destroy(other.gameObject);
+
+            }
+
+            Debug.Log("Player Speed Increased");
+        }
+
+        if (other.CompareTag("Score"))
+        {
+            score++;
+
+            Destroy(other.gameObject); //Kill
+
+            Debug.Log("Score: " + score);
+        }
+
+        if(other.gameObject.tag == "Coin")
+        {
+            ScoreManager.scoreCount += 1;
+            ScoreManager.hiScoreCount += 1;
+            Destroy(other.gameObject);
+        }
+
+       
+
     }
 
 

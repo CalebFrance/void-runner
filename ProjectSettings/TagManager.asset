@@ -8,6 +8,13 @@ TagManager:
   - Level
   - Destroy
   - Score
+  - Columns
+  - Tutorial Level
+  - Speed
+  - Prefab Spawn Point
+  - instantColumnTrig
+  - destroyLvl0
+  - Coin
   layers:
   - Default
   - TransparentFX
