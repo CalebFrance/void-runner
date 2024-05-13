@@ -15,6 +15,7 @@ TagManager:
   - instantColumnTrig
   - destroyLvl0
   - Coin
+  - Obstacle
   layers:
   - Default
   - TransparentFX

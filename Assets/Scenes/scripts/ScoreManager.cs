@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI; // it tells the script to load UI elements
 
 public class ScoreManager : MonoBehaviour
@@ -10,6 +11,7 @@ public class ScoreManager : MonoBehaviour
     public Text hiScoreText;
     public static int scoreCount;
     public static int hiScoreCount;
+    public int score;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,19 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    public void OnTriggerEnter(Collider other)
+    {
+
+        if (other.CompareTag("Score"))
+        {
+            score++;
+
+            Destroy(other.gameObject); //Kill prefab
+
+            Debug.Log("Score: " + score);
+        }
+
+    }
     // Update is called once per frame
     void Update()
     {
@@ -29,7 +44,7 @@ public class ScoreManager : MonoBehaviour
             PlayerPrefs.SetInt("HighScore", hiScoreCount);
         }
 
-        //scoreText.text = "Score: " + scoreCount;
-       // hiScoreText.text = "Hi-Score " + hiScoreCount;
+        scoreText.text = "Score: " + scoreCount;
+        hiScoreText.text = "Hi-Score " + hiScoreCount;
     }
 }
