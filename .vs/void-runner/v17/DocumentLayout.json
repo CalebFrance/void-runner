@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\caleb\\void runner\\void-runner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\caleb\\void runner\\void-runner\\assets\\scenes\\scripts\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scenes\\scripts\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner\\assets\\scenes\\scripts\\aimovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\aimovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner\\assets\\scenes\\scripts\\pickup generation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\pickup generation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner\\assets\\scenes\\scripts\\prefabtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\prefabtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner\\assets\\scenes\\scripts\\level_motion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\level_motion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner\\assets\\scenes\\scripts\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner\\assets\\scenes\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner\\assets\\scenes\\ballroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\ballroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner\\assets\\scenes\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B278151A-2C1C-2DCE-9D74-D67A1A15A64B}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\void-runner\\assets\\scenes\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,24 +46,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameOverScreen.cs",
-              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\GameOverScreen.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\GameOverScreen.cs",
-              "ToolTip": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\GameOverScreen.cs",
-              "RelativeToolTip": "Assets\\Scenes\\scripts\\GameOverScreen.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCYAAAApAAAA",
+              "DocumentIndex": 3,
+              "Title": "level_motion.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\level_motion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\level_motion.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\level_motion.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scripts\\level_motion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T20:57:41.239Z",
+              "WhenOpened": "2024-05-14T20:01:55.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ballroll.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\ballroll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\ballroll.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\ballroll.cs",
+              "RelativeToolTip": "Assets\\Scenes\\ballroll.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwEEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:15:21.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "gameOver.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\gameOver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\gameOver.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\gameOver.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scripts\\gameOver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:51:44.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "prefabTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\prefabTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\prefabTrigger.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\prefabTrigger.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scripts\\prefabTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:31:25.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "pickUp Generation.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\pickUp Generation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\pickUp Generation.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\pickUp Generation.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scripts\\pickUp Generation.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:31:13.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AIMovement.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\AIMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\AIMovement.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\AIMovement.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scripts\\AIMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:23:02.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Score.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\Score.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\Score.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\Score.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scripts\\Score.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB4AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:19:21.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\ScoreManager.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scripts\\ScoreManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:18:58.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "gameStart.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\gameStart.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\scripts\\gameStart.cs",
@@ -43,7 +162,8 @@
               "RelativeToolTip": "Assets\\Scenes\\scripts\\gameStart.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T16:52:13.304Z"
+              "WhenOpened": "2024-04-05T16:52:13.304Z",
+              "EditorCaption": ""
             }
           ]
         }

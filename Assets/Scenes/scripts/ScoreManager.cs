@@ -11,7 +11,7 @@ public class ScoreManager : MonoBehaviour
     public Text hiScoreText;
     public static int scoreCount;
     public static int hiScoreCount;
-    public int score;
+    //public int score;
 
     // Start is called before the first frame update
     void Start()
@@ -22,23 +22,12 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    public void OnTriggerEnter(Collider other)
-    {
 
-        if (other.CompareTag("Score"))
-        {
-            score++;
-
-            Destroy(other.gameObject); //Kill prefab
-
-            Debug.Log("Score: " + score);
-        }
-
-    }
     // Update is called once per frame
     void Update()
     {
-        if(scoreCount > hiScoreCount)
+
+        if (scoreCount > hiScoreCount)
         {
             scoreCount = hiScoreCount;
             PlayerPrefs.SetInt("HighScore", hiScoreCount);

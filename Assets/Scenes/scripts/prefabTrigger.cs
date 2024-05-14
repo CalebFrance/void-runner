@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class prefabTrigger : MonoBehaviour
@@ -10,15 +11,20 @@ public class prefabTrigger : MonoBehaviour
     public List<GameObject> levels = new List<GameObject>();
     public GameObject level_1;
     public GameObject level_2;
+    public GameObject level_3;
+    public GameObject level_4;
     public GameObject player;
   
-    private float spawnDistance = 108f;
-    private float spawnDistance2 = 35f;
-    private float spawnDistance3 = 31.4f;
+    private float spawnDistance = 99f;
+    private float spawnDistance2 = 30f;
+    private float spawnDistance3 = 50f;
+    private float spawnDistance4 = 10f;
+    private float spawnDistance5 = 70f;
     private float PlatformdestroyTime = 8f;
+    private float BossLeveldestroyTime = 20f;
     private float TunneldestroyTime = 30f;
     public Vector3 spawnPosition;
-    public bool GameRunning = true;
+    public bool GameRunning = false;
     public int platforms;
 
     // Start is called before the first frame update
@@ -29,9 +35,9 @@ public class prefabTrigger : MonoBehaviour
 
     void Update()
     {
-        if (playerTransform == null)
+        if (!Application.isPlaying)
         {
-            GameRunning = false;
+            GameRunning = true;
         }
     }
 
@@ -47,20 +53,30 @@ public class prefabTrigger : MonoBehaviour
 
         Vector3 spawnPosition3 = playerTransform.position + Vector3.forward * spawnDistance3;
 
-        spawnPosition.y = 0;
-        spawnPosition.x = 0.5f;
+        Vector3 spawnPosition4 = playerTransform.position + Vector3.forward * spawnDistance4;
+
+        Vector3 spawnPosition5 = playerTransform.position + Vector3.forward * spawnDistance5;
 
         spawnPosition.y = 0;
         spawnPosition.x = 0.5f;
 
-        spawnPosition.y = 0;
-        spawnPosition.x = 0.5f;
+        spawnPosition2.y = 0;
+        spawnPosition2.x = 0.5f;
+
+        spawnPosition3.y = 0;
+        spawnPosition3.x = 0.5f;
+
+        spawnPosition4.y = 0;
+        spawnPosition4.x = 0.5f;
+
+        spawnPosition5.y = 0;
+        spawnPosition5.x = 0.5f;
 
         if (platforms < 10)
         {
 
             //The prefabs folder then populates the levels list using the LoadAll function
-            levels = Resources.LoadAll<GameObject>("Prefabs/level 1").ToList();
+            levels = Resources.LoadAll<GameObject>("Prefabs/level default").ToList();
 
             //This adds the first level game object to tthe list
             levels.Add(level_1);
@@ -98,7 +114,8 @@ public class prefabTrigger : MonoBehaviour
                 newLevel2.name = levels[0].name;
                 Destroy(newLevel2, TunneldestroyTime);
             }
-            else
+
+            if (platforms <= 14)
             {
                 GameObject newLevel2 = Instantiate(levels[0], spawnPosition2, Quaternion.identity);
                 Debug.Log("Level 2 instantiated");
@@ -113,23 +130,66 @@ public class prefabTrigger : MonoBehaviour
 
         }
 
-
-        if (platforms == 0)
+        
+        if (platforms >= 15)
         {
-            Debug.Log("Game Not Yet Started");
+            if (platforms < 20)
+            {
+                //The prefabs folder then populates the levels list using the LoadAll function
+                levels = Resources.LoadAll<GameObject>("Prefabs/Boss level").ToList();
+
+                //This adds the first level game object to tthe list
+                levels.Add(level_3);
+                Debug.Log("Level 3 Start");
+                //A new level is generated and the level 1 prefab is instantiated in the spawnPosition Vector3
+                GameObject newLevel = Instantiate(levels[0], spawnPosition4, Quaternion.identity);
+                Debug.Log("Level 3 instantiated");
+
+                //this makes sure that the heiarchy displays the instatiated level shows up with it's name and not a clone 
+                newLevel.name = levels[0].name;
+
+
+                //destroys the new platform using the destroy timer
+                Destroy(newLevel, BossLeveldestroyTime);
+            }
+
+            
         }
-        // else { Debug.Log("Level 2 failed to instantiate"); } 
+
+        if (platforms >= 20)
+        {
+
+            //The prefabs folder then populates the levels list using the LoadAll function
+            levels = Resources.LoadAll<GameObject>("Prefabs/tutorial_level").ToList();
+
+            //This adds the first level game object to tthe list
+            levels.Add(level_2);
+            Debug.Log("Level 4 Start");
+            //A new level is generated and the level 1 prefab is instantiated in the spawnPosition Vector3
+            GameObject newLevel = Instantiate(levels[0], spawnPosition5, Quaternion.identity);
+            Debug.Log("Level 4 instantiated");
+
+            //this makes sure that the heiarchy displays the instatiated level shows up with it's name and not a clone 
+            newLevel.name = levels[0].name;
+
+
+            //destroys the new platform using the destroy timer
+            Destroy(newLevel, TunneldestroyTime);
+
+
+        }
 
 
     }
 
+ 
 
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("spawn"))
         {
-            if (GameRunning != true)
+            if (GameRunning == true)
 
             {
                 platforms++;

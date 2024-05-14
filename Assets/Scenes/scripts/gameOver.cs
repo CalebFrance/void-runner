@@ -31,12 +31,13 @@ public class gameOver : MonoBehaviour
 
     
 
-    public void OnCollisionEnter(Collision other)
+    public void OnCollisionEnter (Collision other)
     {
-        if (other.gameObject.CompareTag("Obstacle"))
+        if (other.gameObject.CompareTag("Death"))
         {
             Debug.Log("You hit an obstacle died");
             Destroy(gameObject);
+
             for (float i = 0f; i < 10f; i++) 
             {
                 SceneManager.LoadSceneAsync(2);
@@ -53,6 +54,7 @@ public class gameOver : MonoBehaviour
         if (pos <= -10f)
         {
             GameOver();
+            Debug.Log("You fell too far");
         }
     }
 }

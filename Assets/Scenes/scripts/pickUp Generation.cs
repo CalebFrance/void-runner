@@ -59,8 +59,6 @@ public class pickUpGeneration : MonoBehaviour
         }
     }
 
-    
-
 
 
     // Update is called once per frame

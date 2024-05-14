@@ -60,12 +60,12 @@ public class Ballroll : MonoBehaviour
             Debug.Log("Score: " + score);
         }
 
-        if(other.gameObject.tag == "Coin")
-        {
-            ScoreManager.scoreCount += 1;
-            ScoreManager.hiScoreCount += 1;
-            Destroy(other.gameObject);
-        }
+       // if(other.gameObject.tag == "Coin")
+      //  {
+      //      ScoreManager.scoreCount += 1;
+      //      ScoreManager.hiScoreCount += 1;
+      //      Destroy(other.gameObject);
+      //  }
 
        
 

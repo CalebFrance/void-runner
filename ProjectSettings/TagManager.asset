@@ -16,6 +16,7 @@ TagManager:
   - destroyLvl0
   - Coin
   - Obstacle
+  - Death
   layers:
   - Default
   - TransparentFX
