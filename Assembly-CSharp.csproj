@@ -63,7 +63,6 @@
     <Compile Include="Assets\Scenes\scripts\AIMovement.cs" />
     <Compile Include="Assets\Scenes\scripts\camera.cs" />
     <Compile Include="Assets\Scenes\scripts\Score.cs" />
-    <Compile Include="Assets\Scenes\scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scenes\scripts\level_motion.cs" />
     <Compile Include="Assets\Scenes\scripts\sectionTrigger.cs" />
     <Compile Include="Assets\Scenes\scripts\deathScreen.cs" />

@@ -368,7 +368,6 @@
 "Assets/Scenes/scripts/gameStart.cs"
 "Assets/Scenes/scripts/level_motion.cs"
 "Assets/Scenes/scripts/movement.cs"
-"Assets/Scenes/scripts/NewBehaviourScript.cs"
 "Assets/Scenes/scripts/pickUp Generation.cs"
 "Assets/Scenes/scripts/power_up.cs"
 "Assets/Scenes/scripts/prefabTrigger.cs"
