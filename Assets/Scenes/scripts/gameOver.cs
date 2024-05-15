@@ -11,7 +11,9 @@ public class gameOver : MonoBehaviour
     public float fallheight;
     public GameObject player;
     public float deathDelay = 10f;
-
+    public static Transform playerTransform;
+  
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,7 @@ public class gameOver : MonoBehaviour
             Destroy(gameObject);
             SceneManager.LoadSceneAsync(2);
         }
+
 
     }
 

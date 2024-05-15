@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scenes\scripts\AIMovement.cs" />
     <Compile Include="Assets\Scenes\scripts\camera.cs" />
     <Compile Include="Assets\Scenes\scripts\Score.cs" />
+    <Compile Include="Assets\enemyfollow.cs" />
     <Compile Include="Assets\Scenes\scripts\level_motion.cs" />
     <Compile Include="Assets\Scenes\scripts\sectionTrigger.cs" />
     <Compile Include="Assets\Scenes\scripts\deathScreen.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Scenes\scripts\power_up.cs" />
     <Compile Include="Assets\Scenes\scripts\gameStart.cs" />
     <Compile Include="Assets\Scenes\scripts\gameOver.cs" />
+    <Compile Include="Assets\Boss.cs" />
     <Compile Include="Assets\Scenes\MainMenu.cs" />
     <Compile Include="Assets\Scenes\scripts\movement.cs" />
     <Compile Include="Assets\Scenes\scripts\ScoreManager.cs" />
