@@ -33,43 +33,7 @@ public class Ballroll : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Speed"))
-        {
-            if (Time.time > 2f)
-            {
-                speed = speed * time;
-                
-                playerTransform.position += new Vector3(0, 0, 2) * Time.fixedDeltaTime;
-
-                Destroy(other.gameObject);
-               
-
-            }
-
-            Debug.Log("Player Speed Increased");
-        }
-
-        if (other.CompareTag("Score"))
-        {
-            score++;
-
-            Destroy(other.gameObject); //Kill
-
-            Debug.Log("Score: " + score);
-        }
-
-       // if(other.gameObject.tag == "Coin")
-      //  {
-      //      ScoreManager.scoreCount += 1;
-      //      ScoreManager.hiScoreCount += 1;
-      //      Destroy(other.gameObject);
-      //  }
-
-       
-
-    }
+    
 
 
 }

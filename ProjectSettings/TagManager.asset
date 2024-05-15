@@ -17,6 +17,8 @@ TagManager:
   - Coin
   - Obstacle
   - Death
+  - kill enemy
+  - enemy
   layers:
   - Default
   - TransparentFX

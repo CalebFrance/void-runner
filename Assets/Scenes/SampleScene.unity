@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0008095468, g: 0.004161891, b: 0.02006406, a: 1}
+  m_IndirectSpecularColor: {r: 0.00080953666, g: 0.004162025, b: 0.02006424, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -458,6 +458,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level_1: {fileID: 1126701302309486033, guid: 1898bf30f8562094cba891e99d84fb68, type: 3}
+  Portal: {fileID: 5607819269926399345, guid: 45e0f06c750176947862c10346226439, type: 3}
+  startCircle: {fileID: 3744133877081091469, guid: a2a060732547fe64581bb0cb3c2bdf1d, type: 3}
   player: {fileID: 1082447699}
 --- !u!4 &1082447710 stripped
 Transform:
@@ -509,6 +511,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1082447699}
+--- !u!114 &1082447747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082447699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1f52e641c2c8f49881c4c3fa352746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  time: 0
 --- !u!1 &1247574673
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +719,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1442526500938965051, guid: 519e396d5b7bf8f489fc823f36387052, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2060322694840541574, guid: 519e396d5b7bf8f489fc823f36387052, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
@@ -763,6 +783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 6440709978449714274, guid: 519e396d5b7bf8f489fc823f36387052, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb339679d860eb649a63a72e8aaa0ee0, type: 2}
     - target: {fileID: 7214227092010876117, guid: 519e396d5b7bf8f489fc823f36387052, type: 3}
       propertyPath: columns
       value: 
@@ -791,6 +815,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6306185129191555885, guid: 519e396d5b7bf8f489fc823f36387052, type: 3}
       insertIndex: 11
       addedObject: {fileID: 1082447711}
+    - targetCorrespondingSourceObject: {fileID: 6306185129191555885, guid: 519e396d5b7bf8f489fc823f36387052, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1082447747}
   m_SourcePrefab: {fileID: 100100000, guid: 519e396d5b7bf8f489fc823f36387052, type: 3}
 --- !u!1001 &3211750353990088268
 PrefabInstance:

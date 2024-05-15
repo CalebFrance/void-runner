@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 2467534545269002968}
   - component: {fileID: 5844329915973378438}
   - component: {fileID: 8243994162185960521}
+  - component: {fileID: -7704467160915200718}
+  - component: {fileID: -6453468089670763266}
   m_Layer: 0
   m_Name: level default
   m_TagString: Level
@@ -142,6 +144,39 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 590ffc7f3076473429bf200503787c3a, type: 2}
   m_BuildHeightMesh: 0
+--- !u!114 &-7704467160915200718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126701302309486033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd884e58bca33a548b63da05bff558f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level_1: {fileID: 1126701302309486033}
+  level_3: {fileID: 4864049009622658424, guid: 4c8f9ad4dc29bfb42910ee0742058324, type: 3}
+  enemy: {fileID: 3968211724493358591, guid: d2d041d51288f6943a3f5b59502df767, type: 3}
+  levelTransform: {fileID: 3372854812947837382}
+  spawnDistance: 5
+  levelCollider: {fileID: 5844329915973378438}
+--- !u!114 &-6453468089670763266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126701302309486033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5da104b203096d4f868539f38dca11a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp_Slow: {fileID: 0}
+  PickUp_Speed: {fileID: 1080397614306024, guid: 1f5d98c5ba034a846bb35ff27e18823c, type: 3}
+  levelCollider: {fileID: 5844329915973378438}
 --- !u!1 &1365438883281100004
 GameObject:
   m_ObjectHideFlags: 0
